@@ -1,0 +1,59 @@
+/* MovieDetails.css */
+
+.movie-details-container {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .movie-not-found {
+    text-align: center;
+    font-size: 18px;
+    color: #ff6347; /* Tomato color */
+  }
+  
+  .movie-title {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #333;
+  }
+  
+  .movie-description {
+    font-size: 16px;
+    margin-bottom: 20px;
+    color: #666;
+  }
+  
+  .movie-info {
+    margin-bottom: 20px;
+  }
+  
+  .button-group {
+    display: flex;
+    justify-content: flex-start;
+    gap: 10px;
+  }
+  
+  .toggle-watched-btn,
+  .delete-btn,
+  .edit-link,
+  .back-link {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  .toggle-watched-btn:hover,
+  .delete-btn:hover,
+  .edit-link:hover,
+  .back-link:hover {
+    background-color: #0056b3;
+  }
+  
